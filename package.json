@@ -6,8 +6,8 @@
   "author": "mohammedelzanaty <mohammedelzanaty129@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "build": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "format": "prettier --write 'src/**/*.js'"
   },
   "dependencies": {
