@@ -1,0 +1,28 @@
+{
+  "name": "jobs-live-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mohammedelzanaty/jobs-scraping-with-node.git",
+  "author": "mohammedelzanaty <mohammedelzanaty129@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js",
+    "format": "prettier --write 'src/**/*.js'"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "morgan": "~1.10.0",
+    "nodemon": "^2.0.13",
+    "pretty": "^2.0.0",
+    "puppeteer": "~11.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
