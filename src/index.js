@@ -10,8 +10,6 @@ const PORT = config.port || 3000
 const address = `0.0.0.0:${PORT}`
 // HTTP request logger middleware
 app.use(morgan('dev'))
-// enable CORS
-// app.use(cors())
 // add routing for /api path
 app.use('/api', routes)
 // add live routing

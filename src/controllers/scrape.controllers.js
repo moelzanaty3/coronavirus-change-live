@@ -1,7 +1,6 @@
 const cheerio = require('cheerio')
 const axios = require('axios')
 const pretty = require('pretty')
-const lodash = require('lodash')
 const newspapers = require('../data/newspapers')
 
 async function getArticles(newspaperId = null) {
